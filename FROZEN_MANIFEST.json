@@ -1,0 +1,1501 @@
+{
+  "schema_version": 1,
+  "manifest_state": "AUTHOR_APPROVED",
+  "seal_limits": {
+    "max_body_lines": 3,
+    "max_body_bytes": 240
+  },
+  "anchors": [
+    {
+      "id": "def.Fields.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:72-90,655-664,3874-3905"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields.lean",
+      "export": "EmcsfAcExtension.Fields",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "0e11b348576c770baf871a7f6dd6b84ac59568c97622e1404f138b0f3a6dce4a",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+    },
+    {
+      "id": "def.Fields.mu.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:75,3877"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.mu",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+      "export": "EmcsfAcExtension.Fields.mu",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.mu",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "695fe07f605f6217418cf31b82926653e2eb136f21131087cd61677b53c8d58a",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+    },
+    {
+      "id": "def.Fields.a.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:84-90,3904"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.a",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/NormalizedOut.lean",
+      "export": "EmcsfAcExtension.Fields.a",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.a",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "02b9021cf7c0b0f432792a4f7d8ac03eac8812fe7f2cefd096b64b90c3d8e880",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "dd0bf1847a0d91739533e5f3b5a3dda840da53b66867fc33ccd3ded13084cedc"
+    },
+    {
+      "id": "def.Fields.b.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:84-90,3904"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.b",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/NormalizedIn.lean",
+      "export": "EmcsfAcExtension.Fields.b",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.b",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "c5bc151538cae0521cc8ba368c51d5f8d6b1da1fe5f58cc3c38e2aec2768fabb",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "f2bd3a212b971f27fcef186c1bf4dc16f4d3d8c7ca69a3e7c84a33fdbd69f2f7"
+    },
+    {
+      "id": "def.Fields.Omega2.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:76,3877"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.Omega2",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/Omega2.lean",
+      "export": "EmcsfAcExtension.Fields.Omega2",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.Omega2",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "7a8627e4767b5f008a8ec9b0d5614ef7317596187768408b3fc84810e0b5b5be",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "285ff4dbbc6e5431dff06f022f6e5830889dc70fa37e4512238ffc5562343e33"
+    },
+    {
+      "id": "def.Fields.rUV.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3886-3887"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.rUV",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/RadiusUV.lean",
+      "export": "EmcsfAcExtension.Fields.rUV",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.rUV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "3d00c1891ba0eacb8745ba6df3ceb79cb08dd67201a97e67709b1b20e879acbb",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "98cdf3eed4f575ca7ff527449ff530fa96b9a56aeda9210c2ab60928367fb103"
+    },
+    {
+      "id": "def.Fields.mU.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3888-3889"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.mU",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/MassU.lean",
+      "export": "EmcsfAcExtension.Fields.mU",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.mU",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "ebf91d4d7d608aa7c8e8c5bea186ed5d268a9e86c3cf4f48eca763af5fbe2fb8",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "bb3fe2048f493607624979f6210fac7ddd21e9bfda0689c9b590e188936101b7"
+    },
+    {
+      "id": "def.Fields.mV.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3890-3891"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.mV",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/MassV.lean",
+      "export": "EmcsfAcExtension.Fields.mV",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.mV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "c498201a084fb4f8dd583876b8c0d192e478c5a8a7fd564f598df204dcb07b78",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "1b85e906c03525111b3d84ef4d9efc7369d315bb0c658c12ed64291062b9720b"
+    },
+    {
+      "id": "def.Fields.QU.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3892"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.QU",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/ChargeU.lean",
+      "export": "EmcsfAcExtension.Fields.QU",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.QU",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "bbe66d4bb8a18d7cb0f79f083042d353d7ba5b24430d4ef745b5feb8aa26179b",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "18fe79cd939bb36247db6d65cd04d5d19cb5597a6a73f3cfaf750989547b436d"
+    },
+    {
+      "id": "def.Fields.QV.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3893"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.QV",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/ChargeV.lean",
+      "export": "EmcsfAcExtension.Fields.QV",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.QV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "16afd12124be3bb5c3fcd7a8e12fd0bb9855bffe568bab366af26f3310b4dae7",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "c05787d83671434d092341167e7c3edfab711596ebac5d9892dc867e5cfaf964"
+    },
+    {
+      "id": "def.Fields.AV.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3900-3902,660"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.AV",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/PotentialV.lean",
+      "export": "EmcsfAcExtension.Fields.AV",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.AV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "8beb488dad0fe3f5b98eea2aae1c0cfdc685a7237ab60acbee5fa171f3c9a133",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "e484b9821bd897b648e074405c0e40ea2ac90d09a95bef2510d37a2b1afcffa1"
+    },
+    {
+      "id": "def.Fields.waveSource.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3894-3897"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.waveSource",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/WaveSource.lean",
+      "export": "EmcsfAcExtension.Fields.waveSource",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.waveSource",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "0b42b7c294a7a0d441817a3496088ee9ee250ffe3f151b5ee6c9f4cc34caf90e",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "a2474dd543d817332c655be467212a63ea6ca3bd3a9f7fcf23607f47a6cee05b"
+    },
+    {
+      "id": "def.Fields.thetaU.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3894-3895,3900"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.thetaU",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/ThetaU.lean",
+      "export": "EmcsfAcExtension.Fields.thetaU",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.thetaU",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "5e4e0ed38ebd3c164c77d79e0bb5479cadc222acdc6f99aadda8d536c81e4d62",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/WaveSource.lean",
+          "sha256": "a2474dd543d817332c655be467212a63ea6ca3bd3a9f7fcf23607f47a6cee05b"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "d313bb913396bb931cbdca8e4a3acc0d45bd61e641a0ffcc007941b4e3a2ec2c"
+    },
+    {
+      "id": "def.Fields.xiV.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3896-3897"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.xiV",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/XiV.lean",
+      "export": "EmcsfAcExtension.Fields.xiV",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.xiV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "42ceb877082a4adb634a8c5075308738afb896e07745e21c8133296a78b6c5f9",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/WaveSource.lean",
+          "sha256": "a2474dd543d817332c655be467212a63ea6ca3bd3a9f7fcf23607f47a6cee05b"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "c29dc4080db9a02904d3794845022bc4fa3f960c41a1b3c84c579322c3128560"
+    },
+    {
+      "id": "def.Fields.phiV.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3903"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.phiV",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/PhiV.lean",
+      "export": "EmcsfAcExtension.Fields.phiV",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.phiV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "3a2a373e35dfbc4200d157a1355103903599a8fdff151b37908f48055035c6a5",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "cffb76f70a23dfdcf728403058e92ce4698a985deed11830412bef6ce17d2892"
+    },
+    {
+      "id": "def.Fields.phiU.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3900,3903"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.phiU",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/PhiU.lean",
+      "export": "EmcsfAcExtension.Fields.phiU",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.phiU",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "733c7c5b9c0ce1b28ff748655c6385b1f88e9b21aff7b02bcf978f4c2f2176bd",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "7289e52a9fcc6abf8812704c435e222b4db457a0544dccda22dbda0248ea964b"
+    },
+    {
+      "id": "def.Fields.EqOn.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3822-3828,4030-4033"
+      },
+      "contract": {
+        "id": "charged_SF.def.Fields.EqOn",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Fields/EqOn.lean",
+      "export": "EmcsfAcExtension.Fields.EqOn",
+      "split_policy": {
+        "source_group": "charged_SF.def.Fields.EqOn",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "99ed8d190abe98e5ce62f186a08f9e707a4bd78463f46be9a44dcb9ed99e7c42",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "e301e107cbf82bc2fd792994405ecbcefc5b5781e4426a5c06afd0b7dc50ed68"
+    },
+    {
+      "id": "def.triangle.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:4003-4005"
+      },
+      "contract": {
+        "id": "charged_SF.def.triangle",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/Triangle.lean",
+      "export": "EmcsfAcExtension.triangle",
+      "split_policy": {
+        "source_group": "charged_SF.def.triangle",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "847396d72551faddcee1d20f1d6d1143003c9b05b6e0b886646c8f2b5d952f45",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "450c19b129bf890ee00cd3e899102ea68e70eb36107c4584781b9d40c195ca02"
+    },
+    {
+      "id": "def.origDomain.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:96-98"
+      },
+      "contract": {
+        "id": "charged_SF.def.origDomain",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/OrigDomain.lean",
+      "export": "EmcsfAcExtension.origDomain",
+      "split_policy": {
+        "source_group": "charged_SF.def.origDomain",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "21f24f2db6458e4701ce17a93509c3e9b5dcce402a74f742c25276e6f3f0d983",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "22ba79f46d2536aeb9c7e70eaac9207028b8cb6e6a70829ae9989b02912a8657"
+    },
+    {
+      "id": "def.outSeg.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:102-104"
+      },
+      "contract": {
+        "id": "charged_SF.def.outSeg",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/OutSeg.lean",
+      "export": "EmcsfAcExtension.outSeg",
+      "split_policy": {
+        "source_group": "charged_SF.def.outSeg",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "07eeec7fdd3483be667a8799bcbd6ce6c90d95d472be96e50c9ca8c9b6cc7d4b",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "8e9ee61948327ef05282f4acb7f8616b54fb22d81cd601ad9cad8714f8f5dc75"
+    },
+    {
+      "id": "def.inSeg.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:102-104"
+      },
+      "contract": {
+        "id": "charged_SF.def.inSeg",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/InSeg.lean",
+      "export": "EmcsfAcExtension.inSeg",
+      "split_policy": {
+        "source_group": "charged_SF.def.inSeg",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "cf07cb994ac4ff5648145269429cb66a6b6c23533e3633af78fd78ccedaae328",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "92d651d3bae3d40835f86224c4ba03161b52c153bae6bb0ef422a9a59d3d98d9"
+    },
+    {
+      "id": "def.IntegralForm.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:102-103"
+      },
+      "contract": {
+        "id": "charged_SF.def.IntegralForm",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/IntegralForm.lean",
+      "export": "EmcsfAcExtension.IntegralForm",
+      "split_policy": {
+        "source_group": "charged_SF.def.IntegralForm",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "e7d8f4a326f5dc02d4092edd9651e8813f715daaa62df3bbbe020347af321cef",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "f78bd6711d111b84455133a62149e23817e09667fe17715f48574e60f01fa4cc"
+    },
+    {
+      "id": "def.covVarIn.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:685-688"
+      },
+      "contract": {
+        "id": "charged_SF.def.covVarIn",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/CovVarIn.lean",
+      "export": "EmcsfAcExtension.covVarIn",
+      "split_policy": {
+        "source_group": "charged_SF.def.covVarIn",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "fbf49cd16bc87200c50b18140f8e7fcebe15667e163c3fe4616cb5817d5be821",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "7595a2d30aff268fe5636ae8819a51eb46be32f4cf2efb7ee863359e4af6db18"
+    },
+    {
+      "id": "def.IsSolution.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:95-127,670-683,705-714"
+      },
+      "contract": {
+        "id": "charged_SF.def.IsSolution",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/IsSolution.lean",
+      "export": "EmcsfAcExtension.IsSolution",
+      "split_policy": {
+        "source_group": "charged_SF.def.IsSolution",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "11c865d4d6b29b29dfc220a33256a27b990e1766555376e4e65f42d971a9b9c3",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ChargeU.lean",
+          "sha256": "18fe79cd939bb36247db6d65cd04d5d19cb5597a6a73f3cfaf750989547b436d"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ChargeV.lean",
+          "sha256": "c05787d83671434d092341167e7c3edfab711596ebac5d9892dc867e5cfaf964"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/MassU.lean",
+          "sha256": "bb3fe2048f493607624979f6210fac7ddd21e9bfda0689c9b590e188936101b7"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/MassV.lean",
+          "sha256": "1b85e906c03525111b3d84ef4d9efc7369d315bb0c658c12ed64291062b9720b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedIn.lean",
+          "sha256": "f2bd3a212b971f27fcef186c1bf4dc16f4d3d8c7ca69a3e7c84a33fdbd69f2f7"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedOut.lean",
+          "sha256": "dd0bf1847a0d91739533e5f3b5a3dda840da53b66867fc33ccd3ded13084cedc"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PhiU.lean",
+          "sha256": "7289e52a9fcc6abf8812704c435e222b4db457a0544dccda22dbda0248ea964b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PhiV.lean",
+          "sha256": "cffb76f70a23dfdcf728403058e92ce4698a985deed11830412bef6ce17d2892"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PotentialV.lean",
+          "sha256": "e484b9821bd897b648e074405c0e40ea2ac90d09a95bef2510d37a2b1afcffa1"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/RadiusUV.lean",
+          "sha256": "98cdf3eed4f575ca7ff527449ff530fa96b9a56aeda9210c2ab60928367fb103"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ThetaU.lean",
+          "sha256": "d313bb913396bb931cbdca8e4a3acc0d45bd61e641a0ffcc007941b4e3a2ec2c"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/WaveSource.lean",
+          "sha256": "a2474dd543d817332c655be467212a63ea6ca3bd3a9f7fcf23607f47a6cee05b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/XiV.lean",
+          "sha256": "c29dc4080db9a02904d3794845022bc4fa3f960c41a1b3c84c579322c3128560"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/InSeg.lean",
+          "sha256": "92d651d3bae3d40835f86224c4ba03161b52c153bae6bb0ef422a9a59d3d98d9"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/IntegralForm.lean",
+          "sha256": "f78bd6711d111b84455133a62149e23817e09667fe17715f48574e60f01fa4cc"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/OutSeg.lean",
+          "sha256": "8e9ee61948327ef05282f4acb7f8616b54fb22d81cd601ad9cad8714f8f5dc75"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Triangle.lean",
+          "sha256": "450c19b129bf890ee00cd3e899102ea68e70eb36107c4584781b9d40c195ca02"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "67f0d38435903accf3c53e9086be4b9a97a7880ac714bb124031373aad4b2e97"
+    },
+    {
+      "id": "def.signedExpIntegrand.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:134-138"
+      },
+      "contract": {
+        "id": "charged_SF.def.signedExpIntegrand",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/SignedExpIntegrand.lean",
+      "export": "EmcsfAcExtension.signedExpIntegrand",
+      "split_policy": {
+        "source_group": "charged_SF.def.signedExpIntegrand",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "e67eb9fdf906f73482bf096275703ef6372f86c643d7c1797e199a50d7857776",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "db1ccb705af650390d68f1388b645eda78963c65646e5676bbadb18555a6d74a"
+    },
+    {
+      "id": "def.positiveExpIntegrand.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:148-156"
+      },
+      "contract": {
+        "id": "charged_SF.def.positiveExpIntegrand",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/PositiveExpIntegrand.lean",
+      "export": "EmcsfAcExtension.positiveExpIntegrand",
+      "split_policy": {
+        "source_group": "charged_SF.def.positiveExpIntegrand",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "c0200c5fc678ef9096fa79ffc9902b84e4b1d77cba77c5be504cb7af8b984c8b",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "b382d469062a61785fe13c14e838cd8d7a6d54d35536237aa6fd38301bfc6029"
+    },
+    {
+      "id": "def.datumVar.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3995-3998"
+      },
+      "contract": {
+        "id": "charged_SF.def.datumVar",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/DatumVar.lean",
+      "export": "EmcsfAcExtension.datumVar",
+      "split_policy": {
+        "source_group": "charged_SF.def.datumVar",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "841ba3c2043e937dfa9b4fe44b14f22029174f08525d2ec2e8eba3bee1b20e98",
+      "definition_closure": [],
+      "state": "SEALED",
+      "full_file_sha256": "a320337e7a3032f808df634349a979394b7f64c4651e84b4ace7916d13c9132e"
+    },
+    {
+      "id": "def.jOut.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:4089-4095"
+      },
+      "contract": {
+        "id": "charged_SF.def.jOut",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/JOut.lean",
+      "export": "EmcsfAcExtension.jOut",
+      "split_policy": {
+        "source_group": "charged_SF.def.jOut",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "807e5ce3c8907ed66c2fff92f6ecf3dc3fee70b0211eebe043a7469fbc01a9d7",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedOut.lean",
+          "sha256": "dd0bf1847a0d91739533e5f3b5a3dda840da53b66867fc33ccd3ded13084cedc"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "277695aedb0c55266dc76a90e1ff90d8cddffbb84140bd12402f7a092e4f2bbe"
+    },
+    {
+      "id": "def.kIn.v1",
+      "kind": "definition",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:4089-4098"
+      },
+      "contract": {
+        "id": "charged_SF.def.kIn",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/KIn.lean",
+      "export": "EmcsfAcExtension.kIn",
+      "split_policy": {
+        "source_group": "charged_SF.def.kIn",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "e67f1ec4360abc80cd179cefd7b5ecb973bf10dfff5ed762ff54d95fa45d114e",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedIn.lean",
+          "sha256": "f2bd3a212b971f27fcef186c1bf4dc16f4d3d8c7ca69a3e7c84a33fdbd69f2f7"
+        }
+      ],
+      "state": "SEALED",
+      "full_file_sha256": "d33c7f4a50b0f40f52bfdcd061611768a39846bfeb9ebe7b02e00c2eeff413b8"
+    },
+    {
+      "id": "thm.charged_main.v1",
+      "kind": "theorem",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:129-158"
+      },
+      "contract": {
+        "id": "charged_SF.thm:charged-main",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/ChargedMain.lean",
+      "export": "EmcsfAcExtension.charged_main",
+      "implementation": {
+        "module": "EmcsfAcExtension.Provider.ChargedMain",
+        "export": "EmcsfAcExtension.Provider.chargedMain"
+      },
+      "split_policy": {
+        "source_group": "charged_SF.thm:charged-main",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "43f68eef2ada716fc60c31ba83015675a474ca1737033d2839c816053a32b696",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ChargeU.lean",
+          "sha256": "18fe79cd939bb36247db6d65cd04d5d19cb5597a6a73f3cfaf750989547b436d"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ChargeV.lean",
+          "sha256": "c05787d83671434d092341167e7c3edfab711596ebac5d9892dc867e5cfaf964"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/EqOn.lean",
+          "sha256": "e301e107cbf82bc2fd792994405ecbcefc5b5781e4426a5c06afd0b7dc50ed68"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/MassU.lean",
+          "sha256": "bb3fe2048f493607624979f6210fac7ddd21e9bfda0689c9b590e188936101b7"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/MassV.lean",
+          "sha256": "1b85e906c03525111b3d84ef4d9efc7369d315bb0c658c12ed64291062b9720b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedIn.lean",
+          "sha256": "f2bd3a212b971f27fcef186c1bf4dc16f4d3d8c7ca69a3e7c84a33fdbd69f2f7"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedOut.lean",
+          "sha256": "dd0bf1847a0d91739533e5f3b5a3dda840da53b66867fc33ccd3ded13084cedc"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PhiU.lean",
+          "sha256": "7289e52a9fcc6abf8812704c435e222b4db457a0544dccda22dbda0248ea964b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PhiV.lean",
+          "sha256": "cffb76f70a23dfdcf728403058e92ce4698a985deed11830412bef6ce17d2892"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PotentialV.lean",
+          "sha256": "e484b9821bd897b648e074405c0e40ea2ac90d09a95bef2510d37a2b1afcffa1"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/RadiusUV.lean",
+          "sha256": "98cdf3eed4f575ca7ff527449ff530fa96b9a56aeda9210c2ab60928367fb103"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ThetaU.lean",
+          "sha256": "d313bb913396bb931cbdca8e4a3acc0d45bd61e641a0ffcc007941b4e3a2ec2c"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/WaveSource.lean",
+          "sha256": "a2474dd543d817332c655be467212a63ea6ca3bd3a9f7fcf23607f47a6cee05b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/XiV.lean",
+          "sha256": "c29dc4080db9a02904d3794845022bc4fa3f960c41a1b3c84c579322c3128560"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/InSeg.lean",
+          "sha256": "92d651d3bae3d40835f86224c4ba03161b52c153bae6bb0ef422a9a59d3d98d9"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/IntegralForm.lean",
+          "sha256": "f78bd6711d111b84455133a62149e23817e09667fe17715f48574e60f01fa4cc"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/IsSolution.lean",
+          "sha256": "67f0d38435903accf3c53e9086be4b9a97a7880ac714bb124031373aad4b2e97"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/OrigDomain.lean",
+          "sha256": "22ba79f46d2536aeb9c7e70eaac9207028b8cb6e6a70829ae9989b02912a8657"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/OutSeg.lean",
+          "sha256": "8e9ee61948327ef05282f4acb7f8616b54fb22d81cd601ad9cad8714f8f5dc75"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/PositiveExpIntegrand.lean",
+          "sha256": "b382d469062a61785fe13c14e838cd8d7a6d54d35536237aa6fd38301bfc6029"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/SignedExpIntegrand.lean",
+          "sha256": "db1ccb705af650390d68f1388b645eda78963c65646e5676bbadb18555a6d74a"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Triangle.lean",
+          "sha256": "450c19b129bf890ee00cd3e899102ea68e70eb36107c4584781b9d40c195ca02"
+        }
+      ],
+      "state": "SEALED",
+      "prefix_sha256": "1d2f2a51437b168ee0381a8b480aa3ba345fa9b58e5b6ec982201c2450c69ff1",
+      "suffix_sha256": "72b423d60f88d59c2ae38cdc43c16fe481c9b22974ff62957733867aa85bd567",
+      "draft_allowlist": {
+        "frozen_paths": [],
+        "audit_paths": []
+      }
+    },
+    {
+      "id": "thm.restart_charged_local_BV.v1",
+      "kind": "theorem",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-24",
+        "approval_ref": "R-2026-10-24-readings-v2",
+        "approval_version": "readings-v2"
+      },
+      "source": {
+        "revision": "sha256:4e7263d274ff2d7b60e01a2ed7f66239228006d7d0479373763cdfb79a03b297",
+        "range": "charged_SF.tex:3988-4034"
+      },
+      "contract": {
+        "id": "charged_SF.restart-charged-local-BV",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/RestartChargedLocalBV.lean",
+      "export": "EmcsfAcExtension.restart_charged_local_BV",
+      "implementation": {
+        "module": "EmcsfAcExtension.Provider.RestartChargedLocalBV",
+        "export": "EmcsfAcExtension.Provider.restartChargedLocalBV"
+      },
+      "split_policy": {
+        "source_group": "charged_SF.restart-charged-local-BV",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-24-readings-v2"
+      },
+      "abi_sha256": "74c04fc3c805722ca3743904db062a643575197a70ad14c56491b373af72d21c",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/CovVarIn.lean",
+          "sha256": "7595a2d30aff268fe5636ae8819a51eb46be32f4cf2efb7ee863359e4af6db18"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/DatumVar.lean",
+          "sha256": "a320337e7a3032f808df634349a979394b7f64c4651e84b4ace7916d13c9132e"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ChargeU.lean",
+          "sha256": "18fe79cd939bb36247db6d65cd04d5d19cb5597a6a73f3cfaf750989547b436d"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ChargeV.lean",
+          "sha256": "c05787d83671434d092341167e7c3edfab711596ebac5d9892dc867e5cfaf964"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/EqOn.lean",
+          "sha256": "e301e107cbf82bc2fd792994405ecbcefc5b5781e4426a5c06afd0b7dc50ed68"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/MassU.lean",
+          "sha256": "bb3fe2048f493607624979f6210fac7ddd21e9bfda0689c9b590e188936101b7"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/MassV.lean",
+          "sha256": "1b85e906c03525111b3d84ef4d9efc7369d315bb0c658c12ed64291062b9720b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedIn.lean",
+          "sha256": "f2bd3a212b971f27fcef186c1bf4dc16f4d3d8c7ca69a3e7c84a33fdbd69f2f7"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedOut.lean",
+          "sha256": "dd0bf1847a0d91739533e5f3b5a3dda840da53b66867fc33ccd3ded13084cedc"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Omega2.lean",
+          "sha256": "285ff4dbbc6e5431dff06f022f6e5830889dc70fa37e4512238ffc5562343e33"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PhiU.lean",
+          "sha256": "7289e52a9fcc6abf8812704c435e222b4db457a0544dccda22dbda0248ea964b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PhiV.lean",
+          "sha256": "cffb76f70a23dfdcf728403058e92ce4698a985deed11830412bef6ce17d2892"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PotentialV.lean",
+          "sha256": "e484b9821bd897b648e074405c0e40ea2ac90d09a95bef2510d37a2b1afcffa1"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/RadiusUV.lean",
+          "sha256": "98cdf3eed4f575ca7ff527449ff530fa96b9a56aeda9210c2ab60928367fb103"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ThetaU.lean",
+          "sha256": "d313bb913396bb931cbdca8e4a3acc0d45bd61e641a0ffcc007941b4e3a2ec2c"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/WaveSource.lean",
+          "sha256": "a2474dd543d817332c655be467212a63ea6ca3bd3a9f7fcf23607f47a6cee05b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/XiV.lean",
+          "sha256": "c29dc4080db9a02904d3794845022bc4fa3f960c41a1b3c84c579322c3128560"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/InSeg.lean",
+          "sha256": "92d651d3bae3d40835f86224c4ba03161b52c153bae6bb0ef422a9a59d3d98d9"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/IntegralForm.lean",
+          "sha256": "f78bd6711d111b84455133a62149e23817e09667fe17715f48574e60f01fa4cc"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/IsSolution.lean",
+          "sha256": "67f0d38435903accf3c53e9086be4b9a97a7880ac714bb124031373aad4b2e97"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/JOut.lean",
+          "sha256": "277695aedb0c55266dc76a90e1ff90d8cddffbb84140bd12402f7a092e4f2bbe"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/KIn.lean",
+          "sha256": "d33c7f4a50b0f40f52bfdcd061611768a39846bfeb9ebe7b02e00c2eeff413b8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/OutSeg.lean",
+          "sha256": "8e9ee61948327ef05282f4acb7f8616b54fb22d81cd601ad9cad8714f8f5dc75"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Triangle.lean",
+          "sha256": "450c19b129bf890ee00cd3e899102ea68e70eb36107c4584781b9d40c195ca02"
+        }
+      ],
+      "state": "SEALED",
+      "prefix_sha256": "fca7b7a161ba916beefe95ec3a17f45c346dc21457204e1c0389e34c72bb2723",
+      "suffix_sha256": "72b423d60f88d59c2ae38cdc43c16fe481c9b22974ff62957733867aa85bd567",
+      "draft_allowlist": {
+        "frozen_paths": [],
+        "audit_paths": []
+      }
+    },
+    {
+      "id": "thm.charged_main_real_uncharged.v1",
+      "kind": "theorem",
+      "author_approval": {
+        "approved_by": "the author",
+        "approved_at": "2026-10-26",
+        "approval_ref": "R-2026-10-26-real-uncharged-v1",
+        "approval_version": "v1"
+      },
+      "source": {
+        "revision": "sha256:976a9e726f64140df7090272ec76f9d056aac8b5244afd21b533fa3191c2e8c2",
+        "range": "charged_SF_new_version.tex:34-38"
+      },
+      "contract": {
+        "id": "charged_SF_new_version.abstract#real-uncharged-continuation",
+        "version": "1"
+      },
+      "path": "EmcsfAcExtension/Frozen/ChargedMainRealUncharged.lean",
+      "export": "EmcsfAcExtension.charged_main_real_uncharged",
+      "implementation": {
+        "module": "EmcsfAcExtension.Provider.ChargedMainRealUncharged",
+        "export": "EmcsfAcExtension.Provider.chargedMainRealUncharged"
+      },
+      "split_policy": {
+        "source_group": "charged_SF_new_version.abstract#real-uncharged-continuation",
+        "mode": "NOT_SPLIT",
+        "ruling_ref": "R-2026-10-26-real-uncharged-v1"
+      },
+      "abi_sha256": "9084cdf2a7326254c90652da7dfc311dfca7d3ef6d86933dee113fc5d56b0958",
+      "definition_closure": [
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields.lean",
+          "sha256": "7b44c6d9e88b1912f21ef7f1064197bbba7f378791d777afd6a7c5c6e478f619"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ChargeU.lean",
+          "sha256": "18fe79cd939bb36247db6d65cd04d5d19cb5597a6a73f3cfaf750989547b436d"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ChargeV.lean",
+          "sha256": "c05787d83671434d092341167e7c3edfab711596ebac5d9892dc867e5cfaf964"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/EqOn.lean",
+          "sha256": "e301e107cbf82bc2fd792994405ecbcefc5b5781e4426a5c06afd0b7dc50ed68"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/MassU.lean",
+          "sha256": "bb3fe2048f493607624979f6210fac7ddd21e9bfda0689c9b590e188936101b7"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/MassV.lean",
+          "sha256": "1b85e906c03525111b3d84ef4d9efc7369d315bb0c658c12ed64291062b9720b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/Mu.lean",
+          "sha256": "0c54ee248cd8f3a1d5a73a5328fdca9afac52ec611d189859baf6ecefb4849e8"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedIn.lean",
+          "sha256": "f2bd3a212b971f27fcef186c1bf4dc16f4d3d8c7ca69a3e7c84a33fdbd69f2f7"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/NormalizedOut.lean",
+          "sha256": "dd0bf1847a0d91739533e5f3b5a3dda840da53b66867fc33ccd3ded13084cedc"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PhiU.lean",
+          "sha256": "7289e52a9fcc6abf8812704c435e222b4db457a0544dccda22dbda0248ea964b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PhiV.lean",
+          "sha256": "cffb76f70a23dfdcf728403058e92ce4698a985deed11830412bef6ce17d2892"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/PotentialV.lean",
+          "sha256": "e484b9821bd897b648e074405c0e40ea2ac90d09a95bef2510d37a2b1afcffa1"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/RadiusUV.lean",
+          "sha256": "98cdf3eed4f575ca7ff527449ff530fa96b9a56aeda9210c2ab60928367fb103"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/ThetaU.lean",
+          "sha256": "d313bb913396bb931cbdca8e4a3acc0d45bd61e641a0ffcc007941b4e3a2ec2c"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/WaveSource.lean",
+          "sha256": "a2474dd543d817332c655be467212a63ea6ca3bd3a9f7fcf23607f47a6cee05b"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Fields/XiV.lean",
+          "sha256": "c29dc4080db9a02904d3794845022bc4fa3f960c41a1b3c84c579322c3128560"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/InSeg.lean",
+          "sha256": "92d651d3bae3d40835f86224c4ba03161b52c153bae6bb0ef422a9a59d3d98d9"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/IntegralForm.lean",
+          "sha256": "f78bd6711d111b84455133a62149e23817e09667fe17715f48574e60f01fa4cc"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/IsSolution.lean",
+          "sha256": "67f0d38435903accf3c53e9086be4b9a97a7880ac714bb124031373aad4b2e97"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/OrigDomain.lean",
+          "sha256": "22ba79f46d2536aeb9c7e70eaac9207028b8cb6e6a70829ae9989b02912a8657"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/OutSeg.lean",
+          "sha256": "8e9ee61948327ef05282f4acb7f8616b54fb22d81cd601ad9cad8714f8f5dc75"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/SignedExpIntegrand.lean",
+          "sha256": "db1ccb705af650390d68f1388b645eda78963c65646e5676bbadb18555a6d74a"
+        },
+        {
+          "path": "EmcsfAcExtension/Frozen/Triangle.lean",
+          "sha256": "450c19b129bf890ee00cd3e899102ea68e70eb36107c4584781b9d40c195ca02"
+        }
+      ],
+      "state": "SEALED",
+      "prefix_sha256": "166e69771897a26e66e3822e536e886f6165828ca702fac00c2f4ec53e6bfdaa",
+      "suffix_sha256": "72b423d60f88d59c2ae38cdc43c16fe481c9b22974ff62957733867aa85bd567",
+      "draft_allowlist": {
+        "frozen_paths": [],
+        "audit_paths": []
+      }
+    }
+  ]
+}
