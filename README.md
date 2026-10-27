@@ -1,6 +1,6 @@
 # Lean formalization of: Extension criterion for the spherically-symmetric Einstein–Maxwell-charged-scalar-field equations with absolutely continuous initial data
 
-Extension Principle Collaboration. Paper: *Extension criterion for the spherically-symmetric Einstein–Maxwell-charged-scalar-field equations with absolutely continuous initial data*, available at `<URL>`.
+Extension Principle Collaboration. Paper: *Extension criterion for the spherically-symmetric Einstein–Maxwell-charged-scalar-field equations with absolutely continuous initial data* (link to be added).
 
 Licensed under the Apache License, Version 2.0 (`LICENSE`). Citation metadata: `CITATION.cff`.
 

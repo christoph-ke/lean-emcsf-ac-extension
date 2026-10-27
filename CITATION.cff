@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this formalization, please cite it as below, together with the paper it formalizes: Extension criterion for the spherically-symmetric Einstein–Maxwell-charged-scalar-field equations with absolutely continuous initial data, available at <URL>."
+message: "If you use this formalization, please cite it as below, together with the paper it formalizes: Extension criterion for the spherically-symmetric Einstein–Maxwell-charged-scalar-field equations with absolutely continuous initial data (link to be added)."
 title: "Lean formalization of: Extension criterion for the spherically-symmetric Einstein–Maxwell-charged-scalar-field equations with absolutely continuous initial data"
 type: software
 authors:
